@@ -296,7 +296,7 @@ service openvpn stop
 service openvpn start
 # create openvpn account
 useradd openvpn
-echo "openvpn:0p3nvpn123" | chpasswd
+echo "openvpn:toybitz" | chpasswd
 clear
 echo "######### Download your config files here! #########"
 echo "~> http://$IPADDRESS/openvpn.ovpn - Normal config"
@@ -307,7 +307,7 @@ echo "######### Download your config files here! #########"
 echo
 echo "################# OpenVPN Account ##################"
 echo "~> Username: openvpn"
-echo "~> Password: 0p3nvpn123"
+echo "~> Password: toybitz"
 echo "################# OpenVPN Account ##################"
 echo
 echo "######### To Add OpenVPN User Account ##############"
